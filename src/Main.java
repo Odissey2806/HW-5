@@ -4,7 +4,7 @@ public class Main {
 
         // Условный оператор Урок2
 
-        // Задача №1
+        // Задача № 1
 
         char clientOS = 1; // где, 0 — iOS, 1 — Android
         if (clientOS == 0) {
