@@ -55,7 +55,7 @@ public class Main {
         }
 
         // Задача №5
-        int monthNumber = 17;
+        int monthNumber = 13;
         switch (monthNumber) {
             case 1:
             case 2:
