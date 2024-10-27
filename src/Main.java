@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
-        // Условный оператор Урок2
+        // Условный оператор Урок 2
 
         // Задача № 1
 
