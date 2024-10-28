@@ -15,20 +15,20 @@ public class Main {
 
         // Задача №2
         char clientDeviceYear = 2015;// выбор года выпуска
-        char clientOs = 1; // где, 0 — iOS, 1 — Android
-        if (clientOs == 0) {
+        char operatingSystem = 0; // где, 0 — iOS, 1 — Android
+        if (operatingSystem == 0) {
             System.out.println("«Установите версию приложения для iOS по ссылке»");
             if (clientDeviceYear < 2015) {
                 System.out.println("«Установите облегченную версию приложения для iOS по ссылке».");
-            } else if (clientDeviceYear >= 2015) {
+            }else{
                 System.out.println("Обычная установка приложения");
             }
         }
-        if (clientOs == 1) {
+        if (operatingSystem == 1) {
             System.out.println("«Установите версию приложения для Android по ссылке»");
             if (clientDeviceYear < 2015) {
                 System.out.println("«Установите облегченную версию приложения для Android по ссылке».");
-            }else if (clientDeviceYear >= 2015) {
+            }else{
                 System.out.println("Обычная установка приложения");
             }
         }
